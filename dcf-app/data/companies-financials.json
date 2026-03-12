@@ -1,0 +1,76 @@
+{
+  "tickers": [
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "price": 585.8,
+      "sharesOut": 270,
+      "fcfTTM": 3231,
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "price": 698.43,
+      "sharesOut": 465,
+      "fcfTTM": 7453,
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MIELY",
+      "name": "Mitsubishi Electric Corporation",
+      "price": 68.76,
+      "sharesOut": 1023,
+      "fcfTTM": 229834,
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "HESAY",
+      "name": "Herm\u00e8s International Soci\u00e9t\u00e9 en commandite par actions",
+      "price": 219.18,
+      "sharesOut": 1048,
+      "fcfTTM": 5374,
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris International Inc.",
+      "price": 168.97,
+      "sharesOut": 1557,
+      "fcfTTM": 10664,
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "HLT",
+      "name": "Hilton Worldwide Holdings Inc.",
+      "price": 294.67,
+      "sharesOut": 229,
+      "fcfTTM": 1944,
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "price": 281.73,
+      "sharesOut": 2697,
+      "fcfTTM": -147782,
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway Inc.",
+      "price": 491.51,
+      "sharesOut": 1390,
+      "fcfTTM": 25042,
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "price": 303.89,
+      "sharesOut": 1049,
+      "fcfTTM": 7264,
+      "sector": "Industrials"
+    }
+  ]
+}

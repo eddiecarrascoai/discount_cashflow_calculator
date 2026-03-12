@@ -1,0 +1,148 @@
+{
+  "tickers": [
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "price": 587.19,
+      "sharesOut": 270,
+      "fcfTTM": 3231,
+      "fcf4yr": [
+        911,
+        4121,
+        4429,
+        3231
+      ],
+      "fcfGrowth4yr": 52.5,
+      "sector": "Industrials",
+      "cashFlowMetric": "FCF"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "price": 700.46,
+      "sharesOut": 465,
+      "fcfTTM": 7453,
+      "fcf4yr": [
+        5167,
+        9793,
+        8820,
+        7453
+      ],
+      "fcfGrowth4yr": 12.99,
+      "sector": "Industrials",
+      "cashFlowMetric": "FCF"
+    },
+    {
+      "ticker": "MIELY",
+      "name": "Mitsubishi Electric Corporation",
+      "price": 69.21,
+      "sharesOut": 1023,
+      "fcfTTM": 1442,
+      "fcf4yr": [
+        792,
+        -55,
+        1295,
+        1442
+      ],
+      "fcfGrowth4yr": 22.11,
+      "sector": "Industrials",
+      "cashFlowMetric": "FCF"
+    },
+    {
+      "ticker": "HESAY",
+      "name": "Herm\u00e8s International Soci\u00e9t\u00e9 en commandite par actions",
+      "price": 219.3,
+      "sharesOut": 1048,
+      "fcfTTM": 6193,
+      "fcf4yr": [
+        4821,
+        4987,
+        5922,
+        6193
+      ],
+      "fcfGrowth4yr": 8.71,
+      "sector": "Consumer Cyclical",
+      "cashFlowMetric": "FCF"
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris International Inc.",
+      "price": 169.27,
+      "sharesOut": 1557,
+      "fcfTTM": 10664,
+      "fcf4yr": [
+        9726,
+        7883,
+        10773,
+        10664
+      ],
+      "fcfGrowth4yr": 3.12,
+      "sector": "Consumer Defensive",
+      "cashFlowMetric": "FCF"
+    },
+    {
+      "ticker": "HLT",
+      "name": "Hilton Worldwide Holdings Inc.",
+      "price": 294.19,
+      "sharesOut": 229,
+      "fcfTTM": 1944,
+      "fcf4yr": [
+        1579,
+        1699,
+        1815,
+        1944
+      ],
+      "fcfGrowth4yr": 7.18,
+      "sector": "Consumer Cyclical",
+      "cashFlowMetric": "FCF"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "price": 281.5,
+      "sharesOut": 2697,
+      "fcfTTM": 57048,
+      "fcf4yr": [
+        37676,
+        49552,
+        58471,
+        57048
+      ],
+      "fcfGrowth4yr": 14.83,
+      "sector": "Financial Services",
+      "cashFlowMetric": "Net Income"
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway Inc.",
+      "price": 491.75,
+      "sharesOut": 1390,
+      "fcfTTM": 66968,
+      "fcf4yr": [
+        -22759,
+        96223,
+        88995,
+        66968
+      ],
+      "fcfGrowth4yr": 0.0,
+      "sector": "Financial Services",
+      "cashFlowMetric": "Net Income"
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "price": 301.98,
+      "sharesOut": 1049,
+      "fcfTTM": 7264,
+      "fcf4yr": [
+        5255,
+        4327,
+        3678,
+        7264
+      ],
+      "fcfGrowth4yr": 11.4,
+      "sector": "Industrials",
+      "cashFlowMetric": "FCF"
+    }
+  ]
+}
