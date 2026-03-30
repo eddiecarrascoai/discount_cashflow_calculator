@@ -13,9 +13,12 @@ def main():
     print("Starting to mine company financials...")
 
     print(f"Output will be saved to: {OUTPUT_PATH}")
-    
+
     # You can modify this list of tickers as needed
-    TICKERS = ["DE", "CAT", "MIELY", "HESAY", "PM", "HLT", "JPM", "BRK-B", "GE"]
+    TICKERS = ["DE", "CAT", "MIELY", "HESAY", "PM", "HLT", "JPM", "BRK-B", "GE",
+               "MS", "GS", "GOOGL", "META", "MSFT", "AXP", "SPGI", "MCO","RACE",
+               "GEV", "CVX", "COKE", "ISRG", "VST", "IVSXF", "ASML", "NYT"]
+    
     save_company_financials_to_json(TICKERS, output_path=OUTPUT_PATH)
 
 if __name__ == "__main__":
