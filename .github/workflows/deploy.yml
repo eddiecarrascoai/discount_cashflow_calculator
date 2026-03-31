@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: dcf-app/client
-        run: npm install
+        run: npm ci
 
       - name: Build
         working-directory: dcf-app/client
