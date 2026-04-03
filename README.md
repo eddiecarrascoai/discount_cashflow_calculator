@@ -4,6 +4,9 @@ A value-investing tool that mines live financial data from Yahoo Finance and com
 
 ---
 
+### Sitepage:
+You can check out the live version [here](https://eddiecarrascoai.github.io/discount_cashflow_calculator/)
+
 ## ✨ Features
 
 - 📊 **Live financial data** — pulls FCF, Net Income, shares outstanding, and more via [yfinance](https://github.com/ranaroussi/yfinance)
