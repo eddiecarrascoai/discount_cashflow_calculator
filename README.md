@@ -19,31 +19,64 @@ A value-investing tool that mines live financial data from Yahoo Finance and com
 ## 🗂️ Project Structure
 
 ```
-dcf-app/
-├── client/                  # 🖥️  React + Vite frontend
-│   ├── dcf-calculator.jsx   #     Main DCF calculator component
-│   ├── main.jsx             #     React entry point
-│   ├── index.html           #     Vite HTML shell
-│   ├── vite.config.js       #     Vite config
-│   └── package.json
+discount_cashflow_calculator/
+├── Dockerfile               # 🐳  Multi-stage build (Python → Node → serve)
+├── docker-compose.yml       # 🐳  One-command local deployment
+├── .dockerignore
 │
-├── server/                  # 🐍  Python data-mining backend
-│   ├── app/
-│   │   ├── main.py          #     Entry point — runs the mining script
-│   │   └── utils/
-│   │       └── mine_company_financial.py  # 🔧 Core: fetches & transforms data
-│   ├── data/
-│   │   └── companies-financials.json     # 📁 Generated output (gitignored)
-│   └── requirements.txt
-│
-└── README.md
+└── dcf-app/
+    ├── client/                  # 🖥️  React + Vite frontend
+    │   ├── dcf-calculator.jsx   #     Main DCF calculator component
+    │   ├── main.jsx             #     React entry point
+    │   ├── index.html           #     Vite HTML shell
+    │   ├── vite.config.js       #     Vite config
+    │   └── package.json
+    │
+    ├── server/                  # 🐍  Python data-mining backend
+    │   ├── app/
+    │   │   ├── main.py          #     Entry point — runs the mining script
+    │   │   └── utils/
+    │   │       └── mine_company_financial.py  # 🔧 Core: fetches & transforms data
+    │   ├── data/
+    │   │   └── companies-financials.json     # 📁 Generated output (gitignored)
+    │   └── requirements.txt
+    │
+    └── README.md
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 🐳 Option A — Docker (recommended)
+
+The easiest way to run the app locally. No Python or Node installation required.
+
+**Prerequisites:** [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+```bash
+docker compose up --build
+```
+
+Then open `http://localhost:3000`.
+
+> The build automatically fetches live financial data from Yahoo Finance and compiles the UI — all in one step.
+
+To stop:
+```bash
+docker compose down
+```
+
+To refresh financial data, rebuild the image:
+```bash
+docker compose up --build
+```
+
+---
+
+### 💻 Option B — Manual (local dev)
+
+**Prerequisites:**
 
 - **Node.js** ≥ 18
 - **Python** ≥ 3.10
@@ -123,6 +156,7 @@ Edit the `TICKERS` list in `server/app/main.py` to track different stocks.
 | 🐍 Backend | Python 3 + yfinance |
 | 📦 Data | Static JSON (generated) |
 | 💱 FX Rates | Live via yfinance currency pairs |
+| 🐳 Deployment | Docker (multi-stage) + docker-compose |
 
 ---
 
