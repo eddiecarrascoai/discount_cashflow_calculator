@@ -3,7 +3,7 @@
     {
       "ticker": "DE",
       "name": "Deere & Company",
-      "price": 573.01,
+      "price": 572.13,
       "sharesOut": 270,
       "fcfTTM": 3231,
       "fcf4yr": [
@@ -19,7 +19,7 @@
     {
       "ticker": "CAT",
       "name": "Caterpillar Inc.",
-      "price": 719.13,
+      "price": 718.12,
       "sharesOut": 465,
       "fcfTTM": 7453,
       "fcf4yr": [
@@ -35,30 +35,30 @@
     {
       "ticker": "MIELY",
       "name": "Mitsubishi Electric Corporation",
-      "price": 65.72,
+      "price": 66.98,
       "sharesOut": 1023,
-      "fcfTTM": 1441,
+      "fcfTTM": 1437,
       "fcf4yr": [
-        792,
+        790,
         -55,
-        1294,
-        1441
+        1291,
+        1437
       ],
-      "fcfGrowth4yr": 22.08,
+      "fcfGrowth4yr": 22.07,
       "sector": "Industrials",
       "cashFlowMetric": "FCF"
     },
     {
       "ticker": "HESAY",
       "name": "Herm\u00e8s International Soci\u00e9t\u00e9 en commandite par actions",
-      "price": 192.5,
+      "price": 194.06,
       "sharesOut": 1048,
-      "fcfTTM": 6212,
+      "fcfTTM": 6214,
       "fcf4yr": [
-        4836,
-        5003,
-        5941,
-        6212
+        4838,
+        5004,
+        5942,
+        6214
       ],
       "fcfGrowth4yr": 8.7,
       "sector": "Consumer Cyclical",
@@ -67,7 +67,7 @@
     {
       "ticker": "PM",
       "name": "Philip Morris International Inc.",
-      "price": 158.37,
+      "price": 160.28,
       "sharesOut": 1559,
       "fcfTTM": 10664,
       "fcf4yr": [
@@ -83,7 +83,7 @@
     {
       "ticker": "HLT",
       "name": "Hilton Worldwide Holdings Inc.",
-      "price": 304.38,
+      "price": 304.5,
       "sharesOut": 229,
       "fcfTTM": 1944,
       "fcf4yr": [
@@ -99,7 +99,7 @@
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase & Co.",
-      "price": 295.13,
+      "price": 293.65,
       "sharesOut": 2697,
       "fcfTTM": 57048,
       "fcf4yr": [
@@ -115,7 +115,7 @@
     {
       "ticker": "BRK-B",
       "name": "Berkshire Hathaway Inc.",
-      "price": 478.02,
+      "price": 474.96,
       "sharesOut": 1391,
       "fcfTTM": 66968,
       "fcf4yr": [
@@ -131,7 +131,7 @@
     {
       "ticker": "GE",
       "name": "GE Aerospace",
-      "price": 279.88,
+      "price": 287.53,
       "sharesOut": 1045,
       "fcfTTM": 7264,
       "fcf4yr": [
@@ -147,7 +147,7 @@
     {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "price": 166.83,
+      "price": 165.74,
       "sharesOut": 1588,
       "fcfTTM": 16861,
       "fcf4yr": [
@@ -163,7 +163,7 @@
     {
       "ticker": "GS",
       "name": "The Goldman Sachs Group, Inc.",
-      "price": 865.0,
+      "price": 856.48,
       "sharesOut": 295,
       "fcfTTM": 17176,
       "fcf4yr": [
@@ -179,7 +179,7 @@
     {
       "ticker": "GOOGL",
       "name": "Alphabet Inc.",
-      "price": 296.17,
+      "price": 302.07,
       "sharesOut": 5822,
       "fcfTTM": 73266,
       "fcf4yr": [
@@ -195,7 +195,7 @@
     {
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
-      "price": 577.53,
+      "price": 570.35,
       "sharesOut": 2187,
       "fcfTTM": 46109,
       "fcf4yr": [
@@ -211,7 +211,7 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 369.71,
+      "price": 370.06,
       "sharesOut": 7426,
       "fcfTTM": 71611,
       "fcf4yr": [
@@ -227,7 +227,7 @@
     {
       "ticker": "AXP",
       "name": "American Express Company",
-      "price": 300.86,
+      "price": 301.95,
       "sharesOut": 686,
       "fcfTTM": 10833,
       "fcf4yr": [
@@ -243,8 +243,8 @@
     {
       "ticker": "SPGI",
       "name": "S&P Global Inc.",
-      "price": 430.37,
-      "sharesOut": 299,
+      "price": 432.05,
+      "sharesOut": 296,
       "fcfTTM": 4471,
       "fcf4yr": [
         3248,
@@ -259,7 +259,7 @@
     {
       "ticker": "MCO",
       "name": "Moody's Corporation",
-      "price": 440.31,
+      "price": 439.98,
       "sharesOut": 178,
       "fcfTTM": 2459,
       "fcf4yr": [
@@ -275,7 +275,7 @@
     {
       "ticker": "RACE",
       "name": "Ferrari N.V.",
-      "price": 339.58,
+      "price": 334.67,
       "sharesOut": 177,
       "fcfTTM": 1625,
       "fcf4yr": [
@@ -291,7 +291,7 @@
     {
       "ticker": "GEV",
       "name": "GE Vernova Inc.",
-      "price": 901.17,
+      "price": 891.13,
       "sharesOut": 270,
       "fcfTTM": 3710,
       "fcf4yr": [
@@ -307,7 +307,7 @@
     {
       "ticker": "CVX",
       "name": "Chevron Corporation",
-      "price": 199.01,
+      "price": 201.92,
       "sharesOut": 1981,
       "fcfTTM": 16592,
       "fcf4yr": [
@@ -323,7 +323,7 @@
     {
       "ticker": "COKE",
       "name": "Coca-Cola Consolidated, Inc.",
-      "price": 192.68,
+      "price": 197.18,
       "sharesOut": 57,
       "fcfTTM": 619,
       "fcf4yr": [
@@ -339,7 +339,7 @@
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical, Inc.",
-      "price": 452.68,
+      "price": 449.25,
       "sharesOut": 355,
       "fcfTTM": 2490,
       "fcf4yr": [
@@ -355,7 +355,7 @@
     {
       "ticker": "VST",
       "name": "Vistra Corp.",
-      "price": 151.89,
+      "price": 152.73,
       "sharesOut": 339,
       "fcfTTM": 1318,
       "fcf4yr": [
@@ -373,12 +373,12 @@
       "name": "Investor AB (publ)",
       "price": 35.95,
       "sharesOut": 1247,
-      "fcfTTM": 16751,
+      "fcfTTM": 16515,
       "fcf4yr": [
-        -7943,
-        13512,
-        12055,
-        16751
+        -7831,
+        13322,
+        11884,
+        16515
       ],
       "fcfGrowth4yr": 0.0,
       "sector": "Financial Services",
@@ -387,14 +387,14 @@
     {
       "ticker": "ASML",
       "name": "ASML Holding N.V.",
-      "price": 1289.0,
+      "price": 1291.97,
       "sharesOut": 385,
-      "fcfTTM": 12747,
+      "fcfTTM": 12750,
       "fcf4yr": [
-        8285,
-        3753,
-        10500,
-        12747
+        8287,
+        3754,
+        10503,
+        12750
       ],
       "fcfGrowth4yr": 15.44,
       "sector": "Technology",
@@ -403,7 +403,7 @@
     {
       "ticker": "NYT",
       "name": "The New York Times Company",
-      "price": 85.33,
+      "price": 85.54,
       "sharesOut": 161,
       "fcfTTM": 550,
       "fcf4yr": [
